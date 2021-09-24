@@ -18,6 +18,7 @@ h3 {
 
 p {
   font-family: "Roboto Slab", serif;
+  line-height: 1.75;
 }
 
 main {
@@ -38,6 +39,9 @@ main a {
   margin: 0 10px;
 }
 
+.btn {
+  padding: 15px 30px;
+}
 footer {
   display: flex;
   justify-content: space-evenly;
