@@ -5,12 +5,13 @@
 }
 
 body {
+  margin-top: 10px;
   background-color: #fdfbf3;
 }
 
 header {
   text-align: right;
-  margin: 30px 0px;
+  margin: 0px 0px 40px;
   padding: 20px 20px;
   border: 2px solid var(--border-color);
   border-radius: 4px;
