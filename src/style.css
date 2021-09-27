@@ -4,6 +4,9 @@
   --background-color: #eefbfd;
 }
 
+body {
+  background-color: #fdfbf3;
+}
 header {
   text-align: right;
   margin: 30px 0px;
@@ -18,6 +21,10 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   color: var(--main-color);
+}
+
+h1 {
+  font-size: 48px;
 }
 
 h3 {
@@ -58,6 +65,11 @@ main a {
 
 footer a {
   color: var(--main-color);
+  transition: 150ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--border-color);
 }
 .btn {
   padding: 15px 30px;
