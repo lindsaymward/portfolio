@@ -51,6 +51,18 @@ footer {
   text-align: center;
 }
 
+.skill-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-icons li {
+  display: inline-flex;
+  padding: 0 10px;
+  font-size: 64px;
+  justify-content: space-evenly;
+}
+
 .footer-note {
   font-size: 10px;
 }
@@ -60,13 +72,17 @@ footer {
   justify-content: space-evenly;
 }
 
-main img {
+.headshot {
   max-width: 30%;
   display: block;
   margin: 0 auto;
   border: 3px solid var(--border-color);
   border-radius: 50%;
   margin-bottom: 20px;
+}
+
+.row img {
+  border: 1px solid var(--border-color);
 }
 
 main a {
@@ -82,6 +98,7 @@ footer a {
 footer a:hover {
   color: var(--border-color);
 }
+
 .btn {
   padding: 15px 30px;
   background-color: var(--main-color);
