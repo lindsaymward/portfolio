@@ -32,6 +32,11 @@ h1 {
 
 h3 {
   font-style: italic;
+  margin-top: 20px;
+}
+
+header h3 {
+  font-style: italic;
   opacity: 75%;
 }
 
@@ -141,6 +146,10 @@ footer a:hover {
   h2 {
     font-size: 40px;
   }
+  main h3 {
+    font-size: 32px;
+  }
+
   p {
     font-size: 18px;
   }
