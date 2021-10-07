@@ -102,6 +102,10 @@ footer a {
   transition: 150ms ease-in-out;
 }
 
+footer .footer-note a {
+  margin: 0px;
+}
+
 footer a:hover {
   color: var(--border-color);
 }
