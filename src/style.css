@@ -75,7 +75,8 @@ footer {
 
 .social {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin: 0 40px;
 }
 
 .headshot {
@@ -96,7 +97,7 @@ main a {
 }
 
 footer a {
-  margin: 10px;
+  margin: 0px 30px;
   color: var(--secondary-color);
   transition: 150ms ease-in-out;
 }
